@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="415.0" prefWidth="613.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.counterword.HelloController">
+   <children>
+      <Button layoutX="521.0" layoutY="361.0" mnemonicParsing="false" onMouseClicked="#OpenFile" text="Open file" />
+      <BarChart fx:id="chart" layoutX="50.0" prefHeight="354.0" prefWidth="515.0">
+        <xAxis>
+          <CategoryAxis animated="false" nodeOrientation="LEFT_TO_RIGHT" side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis side="LEFT" />
+        </yAxis>
+      </BarChart>
+   </children>
+</AnchorPane>
